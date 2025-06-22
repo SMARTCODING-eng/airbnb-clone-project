@@ -1,3 +1,6 @@
+#  My Project 
+
+
 ## The Objective of the Project 
 
 The backend for the Airbnb Clone project is designed to provide a robust and scalable foundation for managing user interactions, property listings, bookings, and payments. This backend will support various functionalities required to mimic the core features of Airbnb, ensuring a smooth experience for users and hosts.
@@ -22,7 +25,7 @@ Review System: Allow users to leave reviews and ratings for properties.
 **Docker**: Containerization tool for consistent development and deployment environments.
 **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
 
-  #           Team Roles
+  ## Team Roles
 
 A typical software development team structure includes a business analyst, a product owner, a project manager, a UI/UX designer, a software architect, software developers, quality assurance engineers, including test automation engineers, as well as a DevOps engineer.
 
