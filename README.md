@@ -22,7 +22,7 @@ Review System: Allow users to leave reviews and ratings for properties.
 **Docker**: Containerization tool for consistent development and deployment environments.
 **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
 
-  ##              TEAM ROLE
+  ##              Team Roles
 
 A typical software development team structure includes a business analyst, a product owner, a project manager, a UI/UX designer, a software architect, software developers, quality assurance engineers, including test automation engineers, as well as a DevOps engineer.
 
