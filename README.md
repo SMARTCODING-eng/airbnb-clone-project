@@ -106,3 +106,15 @@ DELETE /reviews/{review_id}/ - Delete a specific review
 **Payment Processing**: Integrate a payment system to handle transactions and record payment details.
 **Review System**: Allow users to leave reviews and ratings for properties.
 **Data Optimization**: Ensure efficient data retrieval and storage through database optimizations.
+
+
+
+## API Security
+
+**Authentication**: prevens and unauthorized access to user account, protecting personal data and preventing identity theft. This can be achieved through the uses of Multi-factor authentication, strong password policies, Secure season management, OAuth 2.0/OpenID Connect for third-party logins
+
+**Authorization**: Ensures users only access resources they are permitted to (e.g., customers can't access admin panels). This include, Role-Base Access Control, Principle of Least Privilege, Atribute-Based Access Contol
+
+**Rate limiting**: Prevents abuse and SQL  injection, (e.g., API gateway with OAuth scopes, Input VAlidation and parameterized queries)
+
+**Data protection**: peotect sensitive user data (emails, contacts, payment info) from braeches. This can be achieved by using (Encryption at rest(AES_256) and intransit(TLS 1.3) Regular data backups with integrity checks, Data anonymization for analytics)
