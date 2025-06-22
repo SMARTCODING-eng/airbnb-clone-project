@@ -14,7 +14,7 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 Review System: Allow users to leave reviews and ratings for properties.
 **Data Optimization**: Ensure efficient data retrieval and storage through database optimizations.
 
-## Tech Stack
+## Technology Stack
 
 **Django**: A high-level Python web framework used for building the RESTful API.
 **Django REST Framework**: Provides tools for creating and managing RESTful APIs.
