@@ -118,3 +118,29 @@ DELETE /reviews/{review_id}/ - Delete a specific review
 **Rate limiting**: Prevents abuse and SQL  injection, (e.g., API gateway with OAuth scopes, Input VAlidation and parameterized queries)
 
 **Data protection**: peotect sensitive user data (emails, contacts, payment info) from braeches. This can be achieved by using (Encryption at rest(AES_256) and intransit(TLS 1.3) Regular data backups with integrity checks, Data anonymization for analytics)
+
+## CI/CD Pipeline
+
+**CI/CD Pipelines**: In modern software development, speed and reliability are paramount. Continuous Integration and Continuous Delivery/Deployment (CI/CD) pipelines are the backbone of achieving these goals. They represent a set of automated practices that allow development teams to deliver code changes more frequently and reliably.
+
+At its core, a CI/CD pipeline automates the software delivery process. The "CI" stands for Continuous Integration, a practice where developers frequently merge their code changes into a central repository. Each integration triggers an automated build and a series of tests to detect and address bugs quickly. This frequent integration prevents the "integration hell" often experienced when developers work in isolation for long periods.
+
+The "CD" can stand for either Continuous Delivery or Continuous Deployment. In Continuous Delivery, after the CI stage, the code is automatically prepared for release to a production environment. However, the final deployment to production requires manual approval. Continuous Deployment, on the other hand, takes this a step further by automatically deploying every change that passes all the automated tests to the production environment, eliminating the need for manual intervention.
+
+### Importance of CI/CD pipeline in this project
+**Faster Release Cycles**: Automation of the build, testing, and deployment processes significantly reduces the time it takes to get new features and bug fixes to users
+
+**Improved Code Quality**: By running automated tests with every code change, teams can identify and fix issues earlier in the development lifecycle, leading to a more stable and reliable product.
+
+**Reduced Risk**: Smaller, incremental changes are deployed, making it easier to troubleshoot and roll back if a problem arises. The automated testing provides a safety net against introducing new bugs.
+
+### Tools Needed 
+**GitHub Actions**: Integrated directly into the GitHub platform, it allows you to automate your workflow from idea to production. You can build, test, and deploy your code right from GitHub. Workflows are defined in YAML files and can be triggered by various events in your repository.
+
+**Docker**: While not a CI/CD platform itself, Docker is a crucial tool in the pipeline. It allows developers to package applications and their dependencies into lightweight, portable containers. This ensures that the application runs consistently across different environments (development, testing, production), eliminating the "it works on my machine" problem. Docker containers are often used within CI/CD pipelines to create predictable and isolated environments for building and testing code.
+
+**Jenkins**: An open-source automation server that is highly extensible. It offers a vast ecosystem of plugins to support building, deploying, and automating any project.
+
+**GitLab CI/CD**: A feature-rich, integrated part of the GitLab platform that provides a complete DevOps lifecycle from planning to monitoring.
+
+**CircleCI**: A cloud-based CI/CD platform that is known for its speed and ease of use, offering a flexible environment for automating software development processes.
